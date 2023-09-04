@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rebeccapurple;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        .red-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .blue-box {
+            width: 300px;
+            height: 400px;
+            background-color: blue;
+            border: 2px solid red;
+        }
+
+        .green-box {
+            width: 250px;
+            height: 600px;
+            background-color: green;
+            border-radius: 6px;
+        }
+
+        h1 {
+            width: 400px;
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            width: 800px;
+            color: orange;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="red-box"></div>
+    <div class="blue-box"></div>
+    <div class="green-box"></div>
+    <h1>This is an h1 heading</h1>
+    <h2>This is an h2 heading</h2>
+</body>
+</html>
